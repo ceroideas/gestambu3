@@ -1,0 +1,28 @@
+/* Estilos para Operaciones */
+.sinmar {
+  margin: 1px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.ui-widget-content .ui-state-active {
+  background:#96B202;
+  font-weight: bold;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  padding: 1px;
+  margin-left: 2px;
+}
+.ui-autocomplete > li.ui-menu-item {
+  margin: 1px;
+  padding: 1px;
+}
+
+/* Continuado - servicios finalizados */
+.colorSesionFinal {
+  background-color: #ccebff;
+}
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}

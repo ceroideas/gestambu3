@@ -1,0 +1,43 @@
+* tablas *
+
+<tr>
+  <td>
+    <button type="button" class="btn btn-box-tool" data-toggle="collapse" data-target="#demo"><i class="fa fa-plus"></i>
+
+  </td>
+  <td>John Doe</td>
+  <td>11-7-2014</td>
+  <td><span class="label label-success">Adjudicado</span></td>
+  <td><a href="#">ENlace</a></td>
+</tr>
+<tr id="demo" class="collapse">
+  <td colspan="5">
+    <h4>Additional information</h4>
+    <ul>
+      <li><a href="http://en.wikipedia.org/wiki/Usa">USA on Wikipedia</a></li>
+      <li><a href="http://nationalatlas.gov/">National Atlas of the United States</a></li>
+      <li><a href="http://www.nationalcenter.org/HistoricalDocuments.html">Historical Documents</a></li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td>219</td>
+  <td>Alexander Pierce</td>
+  <td>11-7-2014</td>
+  <td><span class="label label-warning">Pending</span></td>
+  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+</tr>
+<tr>
+  <td>657</td>
+  <td>Bob Doe</td>
+  <td>11-7-2014</td>
+  <td><span class="label label-primary">Approved</span></td>
+  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+</tr>
+<tr>
+  <td>175</td>
+  <td>Mike Doe</td>
+  <td>11-7-2014</td>
+  <td><span class="label label-danger">Denied</span></td>
+  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+</tr>

@@ -1,0 +1,84 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:seg="http://www.example.org/SeguimientoPeticionesWeb/">
+	<soapenv:Body>
+		<seg:notificarEstado>
+			<seg:colaborador>AANDALUC</seg:colaborador>
+			<seg:codigoDemanda>12839302020</seg:codigoDemanda>
+			<seg:estado>3</seg:estado>
+			<seg:fecha_estado>23062023</seg:fecha_estado>
+			<seg:hora_estado>0703</seg:hora_estado>
+			<seg:fecha_realizacion>23062023</seg:fecha_realizacion>
+			<seg:hora_realizacion>0800</seg:hora_realizacion>
+		</seg:notificarEstado>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:seg="http://www.example.org/SeguimientoPeticionesWeb/">
+	<soapenv:Body>
+		<seg:notificarEstado>
+			<seg:colaborador>AANDALUC</seg:colaborador>
+			<seg:codigoDemanda>12839302020</seg:codigoDemanda>
+			<seg:estado>3</seg:estado>
+			<seg:fecha_estado>23062023</seg:fecha_estado>
+			<seg:hora_estado>0703</seg:hora_estado>
+			<seg:fecha_realizacion>23062023</seg:fecha_realizacion>
+			<seg:hora_realizacion>0800</seg:hora_realizacion>
+		</seg:notificarEstado>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:seg="http://www.example.org/SeguimientoPeticionesWeb/">
+	<soapenv:Body>
+		<seg:notificarEstado>
+			<seg:colaborador>AANDALUC</seg:colaborador>
+			<seg:codigoDemanda>12839302020</seg:codigoDemanda>
+			<seg:estado>4</seg:estado>
+			<seg:fecha_estado>23062023</seg:fecha_estado>
+			<seg:hora_estado>0733</seg:hora_estado>
+			<seg:fecha_realizacion>23062023</seg:fecha_realizacion>
+			<seg:hora_realizacion>0800</seg:hora_realizacion>
+		</seg:notificarEstado>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:seg="http://www.example.org/SeguimientoPeticionesWeb/">
+	<soapenv:Body>
+		<seg:notificarEstado>
+			<seg:colaborador>AANDALUC</seg:colaborador>
+			<seg:codigoDemanda>12839302020</seg:codigoDemanda>
+			<seg:estado>3</seg:estado>
+			<seg:fecha_estado>23062023</seg:fecha_estado>
+			<seg:hora_estado>0703</seg:hora_estado>
+			<seg:fecha_realizacion>23062023</seg:fecha_realizacion>
+			<seg:hora_realizacion>0800</seg:hora_realizacion>
+		</seg:notificarEstado>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:seg="http://www.example.org/SeguimientoPeticionesWeb/">
+	<soapenv:Body>
+		<seg:notificarEstado>
+			<seg:colaborador>AANDALUC</seg:colaborador>
+			<seg:codigoDemanda>12839302020</seg:codigoDemanda>
+			<seg:estado>4</seg:estado>
+			<seg:fecha_estado>23062023</seg:fecha_estado>
+			<seg:hora_estado>0733</seg:hora_estado>
+			<seg:fecha_realizacion>23062023</seg:fecha_realizacion>
+			<seg:hora_realizacion>0800</seg:hora_realizacion>
+		</seg:notificarEstado>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:seg="http://www.example.org/SeguimientoPeticionesWeb/">
+	<soapenv:Body>
+		<seg:notificarEstado>
+			<seg:colaborador>AANDALUC</seg:colaborador>
+			<seg:codigoDemanda>12839302020</seg:codigoDemanda>
+			<seg:estado>5</seg:estado>
+			<seg:fecha_estado>23062023</seg:fecha_estado>
+			<seg:hora_estado>0101</seg:hora_estado>
+			<seg:fecha_realizacion>23062023</seg:fecha_realizacion>
+			<seg:hora_realizacion>0800</seg:hora_realizacion>
+		</seg:notificarEstado>
+	</soapenv:Body>
+</soapenv:Envelope>
+

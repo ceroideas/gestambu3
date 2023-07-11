@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:seg="http://www.example.org/SeguimientoPeticionesWeb/">
+	<soapenv:Body>
+		<seg:notificarEstado>
+			<seg:colaborador>AANDALUC</seg:colaborador>
+			<seg:codigoDemanda>97502021</seg:codigoDemanda>
+			<seg:estado>1</seg:estado>
+		</seg:notificarEstado>
+	</soapenv:Body>
+</soapenv:Envelope>
+

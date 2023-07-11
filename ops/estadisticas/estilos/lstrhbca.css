@@ -1,0 +1,19 @@
+@charset "utf-8";
+body {
+	margin: 2px;
+	padding: 2px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:9px;		
+}
+tr.titu td {
+	font-weight:bold;
+}
+tr.up td {
+	border-top: 2px solid #000;
+	margin-bottom:2px;
+}
+.nom {
+	font-size:12px;
+	font-weight:400;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}

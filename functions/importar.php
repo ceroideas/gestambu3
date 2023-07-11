@@ -1,0 +1,4 @@
+<?php
+echo "hola";
+// esta pagina tiene solo esto?????
+?>

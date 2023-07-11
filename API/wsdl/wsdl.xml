@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:s="http://www.w3.org/2001/XMLSchema"
+	xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" 
+	xmlns:tns="http://URL/wsAsisa.asmx" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+	xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+	targetNamespace="http://URL/wsAsisa.asmx" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://URL/wsAsisa.asmx">
+      <s:element name="AltaSolititud">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="demanda" type="tns:ObjetoDemanda" />
+            <s:element minOccurs="0" maxOccurs="1" name="Asistencia" type="tns:ArrayOfObjetoAsistencia" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ObjetoDemanda">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="COD_DEMANDA" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FECHA_PETICION" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="HORA_PETICION" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="APELLIDO1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="APELLIDO2" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="NOMBRE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EDAD" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SEXO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NUM_POLIZA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DELEGACION" nillable="true" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TELEFONO1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TELEFONO2" nillable="true" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OBSERVACIONES_P" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="MOTIVO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TIPO_SERVICIO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TIPO_VEHICULO" nillable="true" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AMB_PSIQUIATRICA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AMB_OXIGENO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AMB_RAMPA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AMB_ENFERMERIA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AMB_DOSTECNICOS" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AMB_MEDICO" type="s:string" />         
+          <s:element minOccurs="1" maxOccurs="1" name="COD_SERVICIO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PRIORIDAD" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OBSERVACIONES_S" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DIRECCION_ORIGEN" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="POBLACION_ORIGEN" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="POBLACION_ORIGEN_NOMBRE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="COD_POSTAL_ORIGEN" nillable="true" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LOCALIZACION_ORIGEN" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DIRECCION_DESTINO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="POBLACION_DESTINO" nillable="true" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="POBLACION_DESTINO_NOMBRE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="COD_POSTAL_DESTINO" nillable="true" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PRESCRIPTOR" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfObjetoAsistencia">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ObjetoAsistencia" nillable="true" type="tns:ObjetoAsistencia" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ObjetoAsistencia">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="COD_DEMANDA" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="NUM_ASISTENCIA" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="FECHA_ASISTENCIA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HORA_ASISTENCIA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VUELTA" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ESTADO" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AltaSolititudResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AltaSolititudResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="demanda" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="estado" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AltaSolititudSoapIn">
+    <wsdl:part name="parameters" element="tns:AltaSolititud" />
+  </wsdl:message>
+  <wsdl:message name="AltaSolititudSoapOut">
+    <wsdl:part name="parameters" element="tns:AltaSolititudResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AsisaWebServiceSoap">
+    <wsdl:operation name="AltaSolititud">
+      <wsdl:input message="tns:AltaSolititudSoapIn" />
+      <wsdl:output message="tns:AltaSolititudSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AsisaWebServiceSoap" type="tns:AsisaWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AltaSolititud">
+      <soap:operation soapAction="https://gestambu.ambuandalucia.es/API/wsdl.php" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AsisaWebService">
+    <wsdl:port name="AsisaWebServiceSoap" binding="tns:AsisaWebServiceSoap">
+      <soap:address location="https://gestambu.ambuandalucia.es/API/wsdl.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

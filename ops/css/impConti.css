@@ -1,0 +1,65 @@
+@charset "utf-8";
+body {
+	width:100%;
+	margin:0;
+	font-size:12px;
+}
+.logo {
+	width: 150px; 
+	margin: 0 auto;
+}
+.en_d {
+	width:50%;
+	margin: 0 0 0 0;
+	color:#FFF;
+	background-color:#000;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	border:1px solid #000000;
+}
+.txt_en {
+	margin-left:5px;
+	padding:2px;
+}
+.tpax {
+	border-right:1px solid #000;
+	border-top:1px solid #000;
+	margin:0px;
+}
+.tpax td {
+	border-bottom:1px solid #000;
+	border-left:1px solid #000;
+	padding:2px;
+}
+td.hora {
+	font-size:18px;
+	font-weight:800;
+}
+td.nombre {
+	font-size:14px;
+}
+td.tbtxt {
+	background-color:#999;
+	color:#FFF;
+	font-size:14px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+}
+td.fintd {
+	border-right:1px solid #000;
+}
+.espacio {
+	height:20px;
+}
+.tnum {
+	border-right:1px solid #000;
+	border-top:1px solid #000;
+}	
+.tnum td {
+	margin:3px;
+	padding:3px;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	width:15px;
+}

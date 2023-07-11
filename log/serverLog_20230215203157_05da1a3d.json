@@ -1,0 +1,1 @@
+{"version":"3.0.0-b3","columns":["log","backtrace","type"],"rows":[[["PHP","GET https://betagestambu.ambuandalucia.es/ops/inc/sanitasnumero.php"],null,"groupCollapsed"],[["Built In 64.4591 ms"],null,"info"],[["Peak Memory Usage: 1.75 MB / 128 MB"],null,"info"],[[],null,"groupEnd"]]}
